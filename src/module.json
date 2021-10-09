@@ -2,15 +2,8 @@
   "name": "gurps-instand-defaults-searcher",
   "title": "gurps-instand-defaults-searcher",
   "description": "",
-  "version": "0.0.0",
-  "author": "<your name>",
-  "authors": [
-    {
-      "name": "<your name>",
-      "email": "<optionally your e-mail address>",
-      "discord": "<optionally your discord username>"
-    }
-  ],
+  "version": "0.0.1",
+  "author": "danielrab",
   "minimumCoreVersion": "0.8.8",
   "compatibleCoreVersion": "0.8.8",
   "scripts": [],
