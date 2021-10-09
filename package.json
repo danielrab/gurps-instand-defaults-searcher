@@ -1,0 +1,53 @@
+{
+  "private": true,
+  "name": "gurps-instand-defaults-searcher",
+  "version": "0.0.0",
+  "description": "",
+  "license": "",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "contributors": [
+    {
+      "name": "",
+      "email": ""
+    }
+  ],
+  "scripts": {
+    "build": "gulp build",
+    "build:watch": "gulp watch",
+    "link-project": "gulp link",
+    "clean": "gulp clean",
+    "clean:link": "gulp link --clean",
+    "bump-version": "gulp bumpVersion",
+    "lint": "eslint --ext .js .",
+    "lint:fix": "eslint --ext .js --fix .",
+    "format": "prettier --write \"./**/*.(js|json|css)\"",
+    "postinstall": "husky install"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.5",
+    "@typhonjs-fvtt/eslint-config-foundry.js": "^0.8.0",
+    "chalk": "^4.1.2",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "fs-extra": "^10.0.0",
+    "gulp": "^4.0.2",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.2.2",
+    "prettier": "^2.4.1",
+    "rollup": "^2.58.0",
+    "semver": "^7.3.5",
+    "yargs": "^17.2.1"
+  },
+  "lint-staged": {
+    "*.(js)": "eslint --fix",
+    "*.(json|css)": "prettier --write"
+  }
+}
